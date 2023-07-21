@@ -64,7 +64,7 @@ public class ProgramAdapter extends ArrayAdapter<ProgramSpinnerModel> {
         } else {
             binding.setProgram(new ProgramSpinnerModel(
                     trackedEntityName,
-                    String.format(getContext().getString(R.string.all_tei_type), trackedEntityName),
+                    "Todas as crianças registadas",
                     false
             ));
         }

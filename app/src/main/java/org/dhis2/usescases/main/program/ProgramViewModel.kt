@@ -32,7 +32,7 @@ data class ProgramViewModel(
         return (filtersAreActive && count == 0) || downloadState == ProgramDownloadState.DOWNLOADING
     }
 
-    fun countDescription() = "%s %s".format(count, typeName)
+    fun countDescription() = "%s %s".format(count, "Crianças Registadas")
 
     fun isDownloading() = downloadActive || downloadState == ProgramDownloadState.DOWNLOADING
 

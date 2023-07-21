@@ -165,7 +165,7 @@
     <string name="see_details">Veja detalhes</string>
     <string name="view_more">VEJA MAIS</string>
     <string name="edit">EDITAR</string>
-    <string name="enrolling_ou">Inscrição UO:</string>
+    <string name="enrolling_ou">Unidade Sanitária:</string>
     <string name="follow_up">Acompanhamento</string>
     <string name="follow_up_enabled">Acompanhamento ativado</string>
     <string name="follow_up_disabled">Acompanhamento desativado</string>
@@ -255,8 +255,9 @@
     <string name="missing_mandatory_fields_title">Faltam campos obrigatórios</string>
     <string name="missing_mandatory_fields_text">Alguns campos obrigatórios estão ausentes. Se você quiser voltar agora, todas as informações salvas serão excluídas.</string>
     <string name="missing_mandatory_fields_text_not_delete">Alguns campos obrigatórios estão ausentes. Se você quiser voltar, por favor preencha-os. </string>
-    <string name="title_delete_go_back">Seus dados não são salvos</string>
-    <string name="delete_go_back">Se você voltar agora, todas as informações inseridas serão excluídas.</string>
+    <string name="title_delete_go_back">Dados não salvos</string>
+    <string name="delete_go_back">você voltar agora, todas as informações inseridas serão excluídas.</string>
+    <string name="discard_go_back">Se sair agora sem gravar, toda a informação registada no formulário, será descartada.</string>
     <string name="missing_mandatory_fields_events_2.0">Alguns campos obrigatórios estão ausentes:/n%s/nVocê pode voltar agora, mas este evento não poderá ser concluído.</string>
     <string name="missing_mandatory_fields_go_back">Suprimir e voltar</string>
     <string name="error_fields">Alguns campos têm erros:/n%s/nPor favor, verifique-os.</string>
@@ -307,7 +308,7 @@
     <!-- QR -->
     <string name="QR_SCANNER">Importar dados QR</string>
     <string name="SAVE">Salvar</string>
-    <string name="button_ok">Aprovado</string>
+    <string name="button_ok">Sim</string>
     <string name="qr_id">Identificação</string>
     <string name="qr_attributes">Atributos</string>
     <string name="qr_enrollment">Inscrições</string>
@@ -388,8 +389,8 @@
     <string name="jira_credential_error">Verifique se seu usuário e senha do jira estão corretos</string>
     <string name="jira_issue_error">Erro ao relatar o problema</string>
     <string name="jira_fields_error">Todos os campos são obrigatórios</string>
-    <string name="dialog_generate_new_event">Gerar novo evento</string>
-    <string name="message_generate_new_event">Deseja criar outro evento?</string>
+    <string name="dialog_generate_new_event">Novo registo</string>
+    <string name="message_generate_new_event">Deseja adicionar um  novo registo?</string>
     <string name="event_completed_title">Eventos Concluídos</string>
     <string name="event_completed_message">Todos os eventos deste programa estão concluídos. Deseja encerrar o programa também?</string>
     <string name="complete_enrollment_message">Deseja concluir a inscrição também?</string>
@@ -642,7 +643,7 @@
     <string name="interval_minute_ago">%d min. atrás</string>
     <string name="interval_hour_ago">%d horas atrás</string>
     <string name="interval_yesterday">Ontém</string>
-    <string name="enrollment_single_section_label">Atributos - %s</string>
+    <string name="enrollment_single_section_label">Detalhes demográficos</string>
     <string name="program_selector">Inscrições no programa</string>
     <string name="select_time">Selecionar hora</string>
     <string name="enter_letter">Inserir letra</string>
@@ -775,6 +776,14 @@
     <string name="available">Disponível</string>
     <string name="unknown_date">Desconhecido</string>
     <string name="troubleshooting_language_title">Idioma</string>
-    <string name="search_create_new">Crie um novo</string>
+    <string name="search_create_new">Registar uma nova criança</string>
     <string name="action_ok">Esta bem</string>
+
+    <string name="open_details">Ver dados demográficos da criança</string>
+
+    <string name="init_search">Inicie a pesquisa para localizar uma criança</string>
+    <string name="search_no_results">Criança não encontrada no sistema</string>
+
+    <!-- Enrollment -->
+    <string name="enrolled_in">Registado em:</string>
     </resources>

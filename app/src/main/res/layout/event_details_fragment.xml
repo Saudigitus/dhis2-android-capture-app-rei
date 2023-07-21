@@ -107,7 +107,7 @@
                         android:id="@+id/date_layout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@{viewModel.eventDate.label}"
+                        android:hint="Data do agendamento"
                         android:textColorHint="@color/text_black_808"
                         android:visibility="@{viewModel.eventDate.active ? View.VISIBLE:View.GONE}">
 
