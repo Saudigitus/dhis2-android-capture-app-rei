@@ -3,15 +3,15 @@
     <item
         android:id="@+id/schedulenew"
         android:icon="@drawable/ic_date_range"
-        android:title="Agendar" />
+        android:title="@string/schedule_new" />
 
     <item
         android:id="@+id/addnew"
         android:icon="@drawable/ic_note_add"
-        android:title="Registar" />
+        android:title="@string/add_new" />
 
     <item
         android:id="@+id/referral"
         android:icon="@drawable/ic_arrow_forward"
-        android:title="Transferir" />
+        android:title="@string/referral" />
 </menu>

@@ -39,10 +39,10 @@
     <string name="data_sync_error">ERRO: Alguns dados não foram sincronizados. Verifique o status da sincronização: programas com erros são marcados como @, TEI\'s e eventos como $\".</string>
     <string name="data_sync_error_program">ERRO: Alguns dados não foram sincronizados. Verifique o status da sincronização: TEIs e eventos com conflitos estão marcados como $\".</string>
     <string name="search_result_text">%s resultados encontrados</string>
-    <string name="add_new">Novo</string>
+    <string name="add_new">Registar</string>
     <string name="add">Adicionar</string>
-    <string name="schedule_new">Nova agenda</string>
-    <string name="referral">Transferência</string>
+    <string name="schedule_new">Agendar</string>
+    <string name="referral">Transferir</string>
 
     <!-- Login -->
     <string name="url_hint">url do servidor</string>
