@@ -62,7 +62,7 @@ class EnrollmentRepository(
     }
 
     override fun sectionUids(): Flowable<MutableList<String>> {
-        val sectionUids = mutableListOf(ENROLLMENT_DATA_SECTION_UID)
+        val sectionUids = mutableListOf(SINGLE_SECTION_UID)
         sectionUids.addAll(programSections.map { it.uid() })
         return Flowable.just(sectionUids)
     }
